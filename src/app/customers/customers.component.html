@@ -1,0 +1,5 @@
+<h1 [hidden]="!isVisible">{{ title }}</h1>
+<button (click)="changeVisibility()">Show/Hide</button>
+<button (click)="answerAreWeThereYet()">Are we done yet?</button>
+<br />
+<app-customers-list  [customers]="people"></app-customers-list>
